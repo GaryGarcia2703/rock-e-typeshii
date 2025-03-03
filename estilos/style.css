@@ -128,6 +128,10 @@ article > p {
     text-indent: 25px;
 }
 
+div#bandas {
+    background-color: #F0F7EE;
+}
+
 h1#maioresbandas {
     padding: 10px; 
     padding-top:100px ;
@@ -139,13 +143,6 @@ h1#maioresbandas {
     font-size: 5em;
 }
 
-article.nomarginbottom {
-    background-color: #EEF0F2;
-    margin-bottom: 60px;
-    margin-top: -26px;
-}
-
-
 .nombrebanda{
     background-color: black;
     color: white;
@@ -155,6 +152,35 @@ article.nomarginbottom {
     text-align: center;
     font-size: 4.5em;
     font-family: 'shrikhand';
+}
+
+div.videoclip {
+    background-color: #F0F7EE;
+    margin-top: 0px;
+    margin-right: -8px;
+    margin-bottom: 30px;
+    margin-left: -8px;
+    padding: 20px ;
+    padding-bottom: 55%;
+    position: relative;
+}
+
+div.videoclip > iframe {
+    position: absolute;
+    top: 22%;
+    left: 22%;
+    width: 57%;
+    height: 55%;
+}
+
+h2#blink {
+    border-radius: 0px;
+}
+
+article.nomarginbottom {
+    background-color: #BBCDD5;
+    margin-bottom: 60px;
+    margin-top: -26px;
 }
 
 #imgbanda1 {
