@@ -66,6 +66,9 @@ menu > ul > li > a {
 menu > ul > li > a:hover {
     background-color: #DADDD8;
     color: black;
+    border: 2px solid black;
+    transform: translate(-3px -3px);
+    transition: transform 10s;
 }
 
 h1#titulo {
