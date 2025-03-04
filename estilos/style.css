@@ -10,6 +10,8 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+    max-width: 100%;
 }
 
 @font-face {
@@ -19,6 +21,8 @@
 
 body, html {
     background-color:#9ddbf8;
+    overflow-x: hidden;
+    max-width: 100%;
 }
 header {
     background-color: rgb(0, 0, 0);
@@ -82,7 +86,7 @@ div#img1 {
     background-position: top center;
     background-size: cover;
 
-    width: 102vw;
+    width: 100vw;
     height: 39vw;
 }
 
@@ -155,22 +159,21 @@ h1#maioresbandas {
 }
 
 div.videoclip {
-    background-color: #F0F7EE;
-    margin-top: 0px;
-    margin-right: -8px;
-    margin-bottom: 30px;
-    margin-left: -8px;
-    padding: 20px ;
-    padding-bottom: 55%;
+    width: 80%;
+    max-width: 950px;
+    margin: 60px auto;
+    margin-bottom: px;
     position: relative;
+    padding-bottom: 32.25%;
+    background-color: #F0F7EE;
 }
 
 div.videoclip > iframe {
     position: absolute;
-    top: 22%;
-    left: 22%;
-    width: 57%;
-    height: 55%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 h2#blink {
@@ -209,7 +212,7 @@ article.nomarginbottom {
     background-position: top center;
     background-size: cover;
 
-    width: 102vw;
+    width: 100%;
     height: 39vw;
 }
 
